@@ -1,0 +1,53 @@
+.form {
+    color: #516391;
+    border: 1px solid #516391;
+    padding: 24px;
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.j-space-between {
+    justify-content: space-between;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.gap-2 {
+    gap: 2px;
+}
+
+.gap-4 {
+    gap: 4px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.mr-top-16 {
+    margin-top: 16px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
