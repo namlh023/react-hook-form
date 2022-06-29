@@ -22,8 +22,16 @@
     justify-content: space-between;
 }
 
+.j-start {
+    justify-content: flex-start;
+}
+
 .a-center {
     align-items: center;
+}
+
+.as-start {
+    align-self: flex-start;
 }
 
 .gap-2 {
@@ -50,4 +58,71 @@ label {
     font-size: 12px;
     font-weight: 500;
     line-height: 18px;
+}
+
+input, input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: #516391;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #516391;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button[type="submit"] {
+    background-color: #516391;
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #fff;
+    border: 0;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.password {
+    padding: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #516391;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password:focus-within {
+    outline: solid 2px #1d50d1;
+}
+
+.password__input {
+    border: 0;
+    padding: 0;
+    padding-left: 8px;
+}
+
+.password__input:focus {
+    outline: 0;
+}
+
+img[type="password"]{
+    padding-right: 8px;
+    cursor: pointer;
 }
